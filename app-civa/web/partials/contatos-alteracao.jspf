@@ -1,0 +1,22 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="row">
+    <div class="row form-group col-xl-6">
+        
+            <div class="form-group col-xl-6">
+                <label for="ddi">DDI</label>
+                <input type="text" class="form-control" id="ddi" name="ddi" placeholder="55" value="${ator.pessoa.ddiContato}" disabled>
+
+            </div>
+            <div class="form-group  col-xl-6">
+                <label for="tele">Contato</label>
+                <input type="text" class="form-control" id="tele" name="tele" placeholder="Ex: 3436572576" value="${ator.pessoa.telefoneDdd}">
+
+            </div>
+    
+    </div>
+    <div class="form-group col-xl-6">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Ex: severinovicenterafaelcarvalho_@fileno.com.br" value="${ator.pessoa.email}">
+    </div>
+</div>
